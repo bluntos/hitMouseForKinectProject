@@ -1,0 +1,15 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\SampleGUI.cs">
+    <Files>
+      <File FileName="Assets\FUBI\MultiTexture2D.cs" Line="25" Column="12" />
+      <File FileName="Assets\FUBI\FubiUnity.cs" Line="555" Column="31" />
+      <File FileName="Assets\SampleGUI.cs" Line="17" Column="3" />
+      <File FileName="Assets\FUBI\hitMouseGame.cs" Line="23" Column="3" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

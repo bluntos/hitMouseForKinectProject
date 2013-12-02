@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 90883f4d3c7804047bffe0c198933e3d
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - m_defaultCursor: {fileID: 2800000, guid: 22dc0be1d4287304e8d42681b985374f, type: 3}
+  - m_swipeSound: {instanceID: 0}
+  - m_swipeCenterNormal: {instanceID: 0}
+  - m_swipeCenterActive: {instanceID: 0}
+  - m_swipeButtonNormal: {instanceID: 0}
+  - m_swipeButtonActive: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
