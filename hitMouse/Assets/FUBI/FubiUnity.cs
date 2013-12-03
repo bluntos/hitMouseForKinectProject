@@ -163,11 +163,58 @@ public class FubiUnity : MonoBehaviour
 
     }
 
+	void loadFilterParameters()	{
+		switch (currentFilter)
+		{
+		case 0: 
+			filter.name = Filter.FILTER_NAME.SIMPLE_AVG;
+			filter.numHistory = 10;		// Number of values to consider in mean
+			break;
+		case 1:
+			filter.name = Filter.FILTER_NAME.MOVING_AVG;
+			filter.numHistory = 5;		// Number of values to consider in moving average
+			break;
+		case 2:
+			filter.name = Filter.FILTER_NAME.SIMPLE_AVG;
+			filter.numHistory = 5;		// Number of values to consider in mean
+			break;
+		case 3:
+			filter.name = Filter.FILTER_NAME.DOUBLE_MOVING_AVG;
+			filter.numHistory = 5;		// Amount of history to keep
+			break;
+		case 4:
+			filter.name = Filter.FILTER_NAME.EXP_SMOOTHING;
+			filter.numHistory = 5;		// Amount of history to keep
+			break;
+		case 5:
+			filter.name = Filter.FILTER_NAME.DOUBLE_EXP_SMOOTHING;
+			filter.numHistory = 10;
+			break;
+		case 6:
+			filter.name = Filter.FILTER_NAME.ADAPTIVE_DOUBLE_EXP_SMOOTHING;
+			break;
+		case 7:
+			filter.name = Filter.FILTER_NAME.MEDIAN;
+			filter.numHistory = 10;		// Amount of history to keep
+			break;
+		case 8:
+			filter.name = Filter.FILTER_NAME.COMBINATION1;
+			break;
+		case 9:
+			filter.name = Filter.FILTER_NAME.COMBINATION2;
+			break;
+		case 10:
+			filter.name = Filter.FILTER_NAME.NONE;
+			break;
+		}
+	}
     // Update is called once per frame
     void Update()
     {
         // update FUBI
        	Fubi.updateSensor();
+
+		loadFilterParameters();
 		
 		filter.name = (Filter.FILTER_NAME)currentFilter;
 		

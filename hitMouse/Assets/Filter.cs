@@ -39,12 +39,12 @@ public class Filter {
 		EXP_SMOOTHING,
 		DOUBLE_EXP_SMOOTHING,
 		ADAPTIVE_DOUBLE_EXP_SMOOTHING,
-		TAYLOR_SERIES,
 		MEDIAN,
 		JITTER_REMOVAL,
 		COMBINATION1,	// Predefined combinations of filters
 		COMBINATION2,
-		NONE
+		NONE,
+		TAYLOR_SERIES
 	};		
 	public FILTER_NAME name;
 
