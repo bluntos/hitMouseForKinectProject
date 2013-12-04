@@ -1,9 +1,10 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\FUBI\hitMouseGame.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\FUBI\FubiUnity.cs">
     <Files>
-      <File FileName="Assets\FUBI\hitMouseGame.cs" Line="22" Column="2" />
-      <File FileName="Assets\FUBI\FubiUnity.cs" Line="506" Column="26" />
+      <File FileName="Assets\FUBI\hitMouseGame.cs" Line="27" Column="2" />
+      <File FileName="Assets\FUBI\FubiUnity.cs" Line="212" Column="18" />
+      <File FileName="Assets\Filter.cs" Line="38" Column="21" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
